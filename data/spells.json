@@ -1,0 +1,1354 @@
+[
+ {
+  "name": "Read Magic",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 1,
+   "school": "Divination",
+   "reversible": true,
+   "components": "V, S, M",
+   "range": "0",
+   "castingTime": "1 round",
+   "duration": "2 rounds/level",
+   "save": "None",
+   "aoe": "Special",
+   "description": "<p><em>Not on the printed list: every Apprentice is taught read magic (special note C). It does not let an alchemist use scrolls.</em></p><p>The magic-user can read magical inscriptions on objects (books, scrolls, weapons and the like) that would otherwise be totally unintelligible. (The magic-user’s own books, and writings already read magically, are already intelligible.) Reading does not normally set off the magic in the writing, though it may with a curse scroll. Once a particular writing has been read this way, the magic-user can read it again later without the spell. Lasts 2 rounds per level.</p><p><strong>Component:</strong> a clear crystal or mineral prism, which is not used up.</p><p><strong>Reverse (unreadable magic):</strong> makes the writing completely unreadable to anyone, even with read magic, until the spell wears off or is dispelled. <strong>Components:</strong> a pinch of dirt and a drop of water.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (magic-user Read Magic, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 1"
+ },
+ {
+  "name": "Comprehend Languages",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 1,
+   "school": "Alteration",
+   "reversible": true,
+   "components": "V, S, M",
+   "range": "Touch",
+   "castingTime": "1 round",
+   "duration": "5 rounds/level",
+   "save": "None",
+   "aoe": "One written object or speaking creature",
+   "description": "<p>The caster can read an otherwise incomprehensible written message, such as a treasure map, or understand a creature’s speech. Magical writing cannot be read, except to know that it is “magic”. The caster must touch the object to be read or the creature to be understood, and cannot write or speak the language.</p><p><strong>Components:</strong> a pinch of soot and a few grains of salt.</p><p><strong>Reverse (confuse languages):</strong> prevents comprehension, or cancels a comprehend languages spell.</p><p><strong>Charge to a customer:</strong> 45 GP.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (magic-user Comprehend Languages, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 1"
+ },
+ {
+  "name": "Detect Magic",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 1,
+   "school": "Divination",
+   "reversible": false,
+   "components": "V, S",
+   "range": "0",
+   "castingTime": "1 segment",
+   "duration": "2 rounds/level",
+   "save": "None",
+   "aoe": "1” path, 6” long",
+   "description": "<p>The same as the first level cleric spell detect magic, except for the differences given in the spell’s statistics (duration, area of effect, and no material component).</p><p><strong>Charge to a customer:</strong> 150 GP.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (magic-user Detect Magic, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 1"
+ },
+ {
+  "name": "Erase",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 1,
+   "school": "Alteration",
+   "reversible": false,
+   "components": "V, S",
+   "range": "3”",
+   "castingTime": "1 segment",
+   "duration": "Permanent",
+   "save": "Neg.",
+   "aoe": "One scroll or two facing pages",
+   "description": "<p>Removes writing, magical or mundane, from a scroll or from one or two pages or sheets of paper, parchment or similar material. It does not remove explosive runes or a symbol (see those spells). The chance of success is 50% plus 2% per level of the caster for magical writing, or plus 4% per level for mundane writing. This is the writing’s saving throw: a percentile roll above the adjusted chance means the spell fails.</p><p><strong>Charge to a customer:</strong> 80 GP.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (magic-user Erase, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 1"
+ },
+ {
+  "name": "Identify Minerals",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 1,
+   "school": "",
+   "reversible": false,
+   "components": "",
+   "range": "",
+   "castingTime": "1 round",
+   "duration": "1 turn/effective level",
+   "save": "",
+   "aoe": "10' × 10' to 60' deep",
+   "description": "<p><em>New alchemist spell (#), usable by magic-users. Statistics not given in the article are blank.</em></p><p>The alchemist can determine whether an outcropping contains a specific mineral he or she is seeking. The mineral must be named before casting; it can be complex or simple. It covers an area ten feet by ten feet to a depth of sixty feet. Man-made structures, and any plant or plant byproducts, foil the detection. Once a metal is smelted it cannot be detected, since the spell only locates minerals in their natural state.</p><p><strong>Charge to a customer:</strong> 125 GP.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49",
+   "rolls": []
+  },
+  "folder": "Level 1"
+ },
+ {
+  "name": "Mending",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 1,
+   "school": "Alteration",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "3”",
+   "castingTime": "1 segment",
+   "duration": "Permanent",
+   "save": "None",
+   "aoe": "One object",
+   "description": "<p><em>Altered for alchemists (*):</em> works only on pottery and glass; otherwise identical to the magic-user spell. A piece broken into a number of pieces (not fragmented to shards or dust) can be put back together.</p><p>Repairs small breaks in objects. It welds a broken ring, chain link, medallion or slender dagger, as long as there is only one break. Ceramic or wooden objects with several breaks are invisibly rejoined, as strong as new. A hole in a leather sack or wineskin is completely closed. It does not repair magic items of any kind.</p><p><strong>Components:</strong> two small magnets of any kind (most likely lodestone) or two burrs.</p><p><strong>Charge to a customer:</strong> 40% of the item's value.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (magic-user Mending, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 1"
+ },
+ {
+  "name": "Produce Flame",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 1,
+   "school": "Alteration",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "0",
+   "castingTime": "4 segments",
+   "duration": "2 rounds/level",
+   "save": "None",
+   "aoe": "Special",
+   "description": "<p>A flame as bright as a torch springs from the druid’s palm and lasts 2 melee rounds per level. It does not harm the druid, but it is hot and sets fire to flammable materials (paper, cloth, dry wood, oil, etc.).</p><p>The druid can throw it as a missile, range 4”. On impact it flashes, igniting combustibles within a 3’ diameter of where it hits, and then goes out. The druid can put the flame out at any time, but not any fires it has started.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (druid Produce Flame, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 1"
+ },
+ {
+  "name": "Purify Water",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 1,
+   "school": "Alteration",
+   "reversible": true,
+   "components": "V, S",
+   "range": "4”",
+   "castingTime": "1 round",
+   "duration": "Permanent",
+   "save": "None",
+   "aoe": "1 cubic foot/level, 1“ square area",
+   "description": "<p>Makes dirty, contaminated water clean, pure and drinkable: up to one cubic foot per level of the druid.</p><p><strong>Reverse (contaminate water):</strong> works the same way, and can even spoil holy/unholy water.</p><p><strong>Charge to a customer:</strong> 100 GP.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (druid Purify Water, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 1"
+ },
+ {
+  "name": "Stir",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 1,
+   "school": "",
+   "reversible": false,
+   "components": "",
+   "range": "",
+   "castingTime": "1 round",
+   "duration": "Up to 1 hour/effective level",
+   "save": "",
+   "aoe": "",
+   "description": "<p><em>New alchemist spell (#), usable by magic-users. Statistics not given in the article are blank.</em></p><p>Any natural stick or rod becomes a stirring device, so the alchemist can do something else. Stirring can be set to any pace, for up to 1 hour per effective level. The alchemist casts it by physically doing the stroke with the stick or rod for one round; it then continues without him or her, and can be stopped and started again on command while the duration lasts.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49",
+   "rolls": []
+  },
+  "folder": "Level 1"
+ },
+ {
+  "name": "Wizard Glue",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 1,
+   "school": "",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "",
+   "castingTime": "1 segment",
+   "duration": "Until broken",
+   "save": "",
+   "aoe": "",
+   "description": "<p><em>New alchemist spell (#), usable by magic-users. Statistics not given in the article are blank.</em></p><p>Bonds one relatively flat thing to another: a picture to a wall, a mirror to a door, a rug to the floor, a light fixture to a ceiling, etc. It holds 20 pounds per effective level; body weight counts as support weight if a living thing is held. Brittle items, such as a mirror, break if forced from the wall. The area held cannot exceed 20 square feet per level; doors and chests can be glued shut. <em>Dispel magic</em> unglues it, and once the bond is broken it no longer adheres.</p><p>Strength breaks a bond: over 10, 20 pounds; 12, 40; 14, 60; 16, 80; 17, 100; 18, 120; 18/51 or better, 140. Bonds stronger than 140 pounds cannot be made.</p><p><strong>Component:</strong> honey, applied to both surfaces before they are joined.</p><p><strong>Charge to a customer:</strong> 225 GP per effective level.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49",
+   "rolls": []
+  },
+  "folder": "Level 1"
+ },
+ {
+  "name": "Write",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 1,
+   "school": "Evocation",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "0",
+   "castingTime": "1 round",
+   "duration": "1 hour/level",
+   "save": "Special",
+   "aoe": "One magical spell inscription",
+   "description": "<p><em>Altered for alchemists (*):</em> copies texts written in Alchemese, and with <em>read magic</em> translates magic-user text into Alchemese. It cannot write a spell in the magic-user language.</p><p>Lets a magic-user try to copy into his or her spell book a spell he or she cannot yet understand (because of level or not enough intelligence).</p><p><strong>Saving throw:</strong> to attempt it, the magic-user must save versus magic: at +2 if the spell is no more than 1 level above what he or she can currently use, at 0 for 2 levels higher, and at -1 per level from 3 levels higher on. On a failure, the magic-user takes 1d4 damage per level of the spell and is knocked unconscious for the same number of turns. This damage, if not fatal, heals only at 1-4 points per day, since it harms both mind and body.</p><p><strong>Time:</strong> copying takes 1 hour per level of the spell, during which the magic-user is in a trance and can always be surprised by any foe.</p><p><strong>Components:</strong> the writing surface, and a fine ink of rare substances (at least 200 g.p. per bottle, if it can be had at all without the magic-user making it).</p><p><strong>Charge to a customer:</strong> 200 GP per spell level.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (magic-user Write, PHB)",
+   "rolls": [
+    {
+     "label": "Damage if the saving throw fails (also turns unconscious)",
+     "kind": "dmg",
+     "formula": "",
+     "save": "",
+     "each": "",
+     "fn": "",
+     "charges": 0,
+     "note": "",
+     "mode": "",
+     "x": "",
+     "choices": [
+      {
+       "label": "Spell level 1",
+       "formula": "1d4",
+       "rows": []
+      },
+      {
+       "label": "Spell level 2",
+       "formula": "2d4",
+       "rows": []
+      },
+      {
+       "label": "Spell level 3",
+       "formula": "3d4",
+       "rows": []
+      },
+      {
+       "label": "Spell level 4",
+       "formula": "4d4",
+       "rows": []
+      },
+      {
+       "label": "Spell level 5",
+       "formula": "5d4",
+       "rows": []
+      },
+      {
+       "label": "Spell level 6",
+       "formula": "6d4",
+       "rows": []
+      },
+      {
+       "label": "Spell level 7",
+       "formula": "7d4",
+       "rows": []
+      },
+      {
+       "label": "Spell level 8",
+       "formula": "8d4",
+       "rows": []
+      },
+      {
+       "label": "Spell level 9",
+       "formula": "9d4",
+       "rows": []
+      }
+     ],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ]
+  },
+  "folder": "Level 1"
+ },
+ {
+  "name": "Affect Normal Fires",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 2,
+   "school": "Alteration",
+   "reversible": false,
+   "components": "V, S",
+   "range": "½”/level",
+   "castingTime": "1 segment",
+   "duration": "1 round/level",
+   "save": "None",
+   "aoe": "3’ diameter fire",
+   "description": "<p>Makes a small fire, from a torch or lantern up to a normal bonfire of 3’ maximum diameter, either shrink and dim to match-like light or brighten to the brightness of a light spell. Reducing it halves fuel consumption; increasing it doubles consumption. The heat given off does not change either way.</p><p><strong>Charge to a customer:</strong> 10 GP.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (magic-user Affect Normal Fires, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 2"
+ },
+ {
+  "name": "Create Water",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 2,
+   "school": "Alteration",
+   "reversible": true,
+   "components": "V, S, M",
+   "range": "1”",
+   "castingTime": "1 round",
+   "duration": "Permanent",
+   "save": "None",
+   "aoe": "Up to 27 cubic feet",
+   "description": "<p>The cleric creates four gallons of clean, drinkable water (like rain water) per level of experience: eight gallons at 2nd level, twelve at 3rd, sixteen at 4th, and so on. The water lasts until it is used up, evaporates, is spilled, etc. It can fill any space from the smallest that will actually hold the liquid up to 27 cubic feet (one cubic yard). Water cannot be created inside a living thing.</p><p><strong>Reverse (destroy water):</strong> obliterates the same quantity of water, leaving no trace (no vapor, mist, fog or steam).</p><p><strong>Components:</strong> at least a drop of water to create water, or a pinch of dust to destroy it.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (cleric Create Water, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 2"
+ },
+ {
+  "name": "Enlarge",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 2,
+   "school": "Alteration",
+   "reversible": true,
+   "components": "V, S, M",
+   "range": "½”/level",
+   "castingTime": "1 segment",
+   "duration": "1 turn/level",
+   "save": "Neg.",
+   "aoe": "Special",
+   "description": "<p>Makes a single creature or object, which the caster must be able to see, instantly grow in size and weight. Range is ½” per level and duration 1 turn per level.</p><ul><li><strong>Creatures</strong> (including symbiotic or community entities) grow by 20% per level of the caster, to a maximum of 200% extra.</li><li><strong>Objects</strong> grow half as much: 10% per level, to a maximum of 100% extra.</li><li><strong>Maximum starting volume:</strong> 10 cubic feet of living material, or 5 cubic feet of non-living matter, per level.</li></ul><p>Magical properties are not increased: a huge +1 sword is still only +1, a staff-sized wand still has only its normal functions, a giant-sized potion just has to be drunk in greater quantity to work, etc. But weight, mass and strength do increase: a table blocking a door is heavier and more effective; a thrown stone has more mass (and hurts more, if enlarged just before impact); chains are more massive; doors thicker; a thin line becomes a sizable, longer rope; and so on. A person 12’ tall would be like an ogre, and one 18’ tall would actually be a giant while the spell lasts.</p><p><strong>Reverse (reduce):</strong> negates enlarge, or makes creatures or objects smaller by the same ratios.</p><p>An unwilling target of either version gets a saving throw; if it succeeds, the spell is wasted.</p><p><strong>Component:</strong> a pinch of powdered iron.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (magic-user Enlarge, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 2"
+ },
+ {
+  "name": "Faerie Fire",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 2,
+   "school": "Alteration",
+   "reversible": false,
+   "components": "V",
+   "range": "8”",
+   "castingTime": "3 segments",
+   "duration": "4 rounds/level",
+   "save": "None",
+   "aoe": "12 linear feet/level within a 4” radius",
+   "description": "<p>Outlines objects or creatures with a pale glowing light, blue, green or violet as the druid chooses. The druid can outline about 12’ of outline per level (one 6’ man or two 3’ kobolds). With enough power, several objects or creatures can be outlined, but each must be fully outlined before the next is started, and all must be in the area of effect.</p><p>Outlined objects or creatures (even invisible ones) can be seen 8” away in the dark, or 4” if the viewer is near a bright light. Opponents gain +2 “to hit” against outlined creatures. The light itself does no harm.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (druid Faerie Fire, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 2"
+ },
+ {
+  "name": "Identify Potion",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 2,
+   "school": "",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "",
+   "castingTime": "",
+   "duration": "",
+   "save": "",
+   "aoe": "",
+   "description": "<p><em>New alchemist spell (#), usable by magic-users. Statistics not given in the article are blank.</em></p><p>Uses 10% of the potion as the material component. The potion need not be drunk, but must at least be touched (bare skin in the liquid). It adds 15% per effective level to the “10% test”; unknown potions can be identified only by analysis, to which it adds 7% per effective level; and it adds 3% to the mixture test. Its duration is that of the test, with casting time equal to the duration.</p><p><em>Always taught first to an Identifier, who counts intelligence as 2 points higher to learn it.</em></p><p><strong>Charge to a customer:</strong> 80 GP.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49",
+   "rolls": []
+  },
+  "folder": "Level 2"
+ },
+ {
+  "name": "Identify Plants",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 2,
+   "school": "",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "120'",
+   "castingTime": "1 round",
+   "duration": "1 turn/effective level",
+   "save": "",
+   "aoe": "60' diameter circle",
+   "description": "<p><em>New alchemist spell (#), usable by magic-users. Statistics not given in the article are blank.</em></p><p>Gives the alchemist the powers of a 3rd level druid (identifying plants). The material component is the leaf of any tree.</p><p><strong>Charge to a customer:</strong> 50 GP.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49",
+   "rolls": []
+  },
+  "folder": "Level 2"
+ },
+ {
+  "name": "Preserve",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 2,
+   "school": "",
+   "reversible": false,
+   "components": "",
+   "range": "",
+   "castingTime": "1 round",
+   "duration": "Until the liquid is mixed or drunk",
+   "save": "",
+   "aoe": "",
+   "description": "<p><em>New alchemist spell (#), usable by magic-users. Statistics not given in the article are blank.</em></p><p>Cast on a finished potion, it keeps the potion unchanged and protects it from normal air. Potions have a 20% or higher chance to deteriorate when exposed to the air, and time sometimes destroys a potion's efficacy. One spell affects one potion. It also preserves ingredients that would deteriorate, such as eye of basilisk, horn of ki-rin, troll blood.</p><p><strong>Charge to a customer:</strong> 150 GP.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49",
+   "rolls": []
+  },
+  "folder": "Level 2"
+ },
+ {
+  "name": "Shatter",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 2,
+   "school": "Alteration",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "6”",
+   "castingTime": "2 segments",
+   "duration": "Permanent",
+   "save": "Neg.",
+   "aoe": "One object",
+   "description": "<p>Affects non-magical objects of crystal, glass, ceramic or porcelain, such as vials, bottles, flasks, jugs, windows, mirrors, etc., shivering them into dozens of pieces. Objects weighing more than 100 gold pieces weight per level of the caster are not affected; all others of these materials must save versus a “crushing blow” or shatter.</p><p><strong>Component:</strong> a chip of mica.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (magic-user Shatter, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 2"
+ },
+ {
+  "name": "Shrink",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 2,
+   "school": "Alteration",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "½”/level",
+   "castingTime": "1 segment",
+   "duration": "1 turn/level",
+   "save": "Neg.",
+   "aoe": "Special",
+   "description": "<p><em>Shrink is the reverse of enlarge (called reduce in the PHB): it works as the reverse described below, and is listed separately so it can be memorized on its own.</em></p><p>Makes a single creature or object, which the caster must be able to see, instantly grow in size and weight. Range is ½” per level and duration 1 turn per level.</p><ul><li><strong>Creatures</strong> (including symbiotic or community entities) grow by 20% per level of the caster, to a maximum of 200% extra.</li><li><strong>Objects</strong> grow half as much: 10% per level, to a maximum of 100% extra.</li><li><strong>Maximum starting volume:</strong> 10 cubic feet of living material, or 5 cubic feet of non-living matter, per level.</li></ul><p>Magical properties are not increased: a huge +1 sword is still only +1, a staff-sized wand still has only its normal functions, a giant-sized potion just has to be drunk in greater quantity to work, etc. But weight, mass and strength do increase: a table blocking a door is heavier and more effective; a thrown stone has more mass (and hurts more, if enlarged just before impact); chains are more massive; doors thicker; a thin line becomes a sizable, longer rope; and so on. A person 12’ tall would be like an ogre, and one 18’ tall would actually be a giant while the spell lasts.</p><p><strong>Reverse (reduce):</strong> negates enlarge, or makes creatures or objects smaller by the same ratios.</p><p>An unwilling target of either version gets a saving throw; if it succeeds, the spell is wasted.</p><p><strong>Component:</strong> a pinch of powdered iron.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (magic-user Enlarge, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 2"
+ },
+ {
+  "name": "Unseen Servant",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 2,
+   "school": "Conjuration/Summoning",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "0",
+   "castingTime": "1 segment",
+   "duration": "6 turns + 1 turn/level",
+   "save": "None",
+   "aoe": "3” radius of spell caster",
+   "description": "<p>Creates an invisible force that obeys the caster like a valet or butler: it fetches and carries, opens doors, holds chairs, cleans and mends. It is weak, carrying at most 200 gold pieces weight lifted, or twice that pushed across a fairly friction-free surface such as a smooth stone or wood floor, and can only open normal doors, drawers, lids, etc. It cannot fight, and cannot be killed since it is a force, not a creature, but it can be dispelled, or destroyed by 6 hit points of magical damage.</p><p><strong>Components:</strong> a piece of string and a bit of wood.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (magic-user Unseen Servant, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 2"
+ },
+ {
+  "name": "Freeze Metal",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 3,
+   "school": "Alteration",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "Touch",
+   "castingTime": "4 segments",
+   "duration": "1 hour/effective level",
+   "save": "None",
+   "aoe": "Special",
+   "description": "<p><em>Altered for alchemists (*):</em> Like the druid spell, but meant for making potions, with no good use in combat. Range is touch. Duration is 1 hour per effective level, with the greatest freezing or heating at the midpoint. Only 10 pounds (100 GP weight) of metal per level is affected. No saving throw. It can be used in combat, but the target has plenty of time to take off the armor; it may serve as a trap if time is on the caster's side.</p><p><em>The druid's heat metal follows for reference; freeze metal works like its reverse.</em></p><p>Makes ferrous metal (iron, iron alloys, steel) hot. The druid can affect the metal of one man-sized creature (its arms and armor) per level, or a single mass of metal weighing 500 gold pieces per level (cumulative).</p><p>The heat builds and fades over the spell’s rounds: the first and last rounds the metal is very warm and uncomfortable to touch; the second and sixth (next to last) rounds it is hot, causing blisters and damage; the third, fourth and fifth rounds it is searing hot, causing damage and disability to exposed flesh:</p><table class=\"book-table\"><tr><th>Metal temperature</th><th>Damage per round of exposure</th><th>Disability</th></tr><tr><td>very warm</td><td>none</td><td>none</td></tr><tr><td>hot</td><td>1-4 hit points</td><td>none</td></tr><tr><td>searing</td><td>2-8 hit points</td><td>hands or feet: 2-8 days; head: 1-4 turns unconsciousness; body: 1-4 days</td></tr></table><p>Wood, leather or flammable cloth touching searing metal smoulders and burns, and then does searing damage to exposed flesh the next round. Fire resistance (potion or ring) or a protection from fire spell completely negates heat metal, as does plunging into water or snow, or a cold or ice storm spell (qq.v.).</p><p><strong>Reverse (chill metal):</strong> counters heat metal, or else chills metal as follows:</p><table class=\"book-table\"><tr><th>Metal temperature</th><th>Damage per round of exposure</th><th>Disability</th></tr><tr><td>cold</td><td>none</td><td>none</td></tr><tr><td>icy</td><td>1-2 hit points</td><td>none</td></tr><tr><td>freezing</td><td>1-4 hit points</td><td>amputation of fingers, toes, nose or ears</td></tr></table><p>Chill metal is countered by resist cold or by any great heat, such as being near a blazing fire (not a mere torch), a magical flaming sword, a wall of fire, etc.</p><p><strong>Charge to a customer:</strong> 50 GP.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (druid Heat Metal, PHB)",
+   "rolls": [
+    {
+     "label": "Damage this round",
+     "kind": "dmg",
+     "formula": "",
+     "save": "",
+     "each": "",
+     "fn": "",
+     "charges": 0,
+     "note": "",
+     "mode": "",
+     "x": "",
+     "choices": [
+      {
+       "label": "Hot (2nd and 6th rounds)",
+       "formula": "1d4",
+       "rows": []
+      },
+      {
+       "label": "Searing (3rd-5th rounds)",
+       "formula": "2d4",
+       "rows": []
+      },
+      {
+       "label": "Reverse, icy",
+       "formula": "1d2",
+       "rows": []
+      },
+      {
+       "label": "Reverse, freezing",
+       "formula": "1d4",
+       "rows": []
+      }
+     ],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    },
+    {
+     "label": "Searing disability",
+     "kind": "dur",
+     "formula": "",
+     "save": "",
+     "each": "",
+     "fn": "",
+     "charges": 0,
+     "note": "",
+     "mode": "",
+     "x": "",
+     "choices": [
+      {
+       "label": "Hands or feet (days)",
+       "formula": "2d4",
+       "rows": []
+      },
+      {
+       "label": "Head: unconscious (turns)",
+       "formula": "1d4",
+       "rows": []
+      },
+      {
+       "label": "Body (days)",
+       "formula": "1d4",
+       "rows": []
+      }
+     ],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ]
+  },
+  "folder": "Level 3"
+ },
+ {
+  "name": "Heat Metal",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 3,
+   "school": "Alteration",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "Touch",
+   "castingTime": "4 segments",
+   "duration": "1 hour/effective level",
+   "save": "None",
+   "aoe": "Special",
+   "description": "<p><em>Altered for alchemists (*):</em> Like the druid spell, but meant for making potions, with no good use in combat. Range is touch. Duration is 1 hour per effective level, with the greatest freezing or heating at the midpoint. Only 10 pounds (100 GP weight) of metal per level is affected. No saving throw. It can be used in combat, but the target has plenty of time to take off the armor; it may serve as a trap if time is on the caster's side.</p><p><em>The druid's heat metal follows for reference; freeze metal works like its reverse.</em></p><p>Makes ferrous metal (iron, iron alloys, steel) hot. The druid can affect the metal of one man-sized creature (its arms and armor) per level, or a single mass of metal weighing 500 gold pieces per level (cumulative).</p><p>The heat builds and fades over the spell’s rounds: the first and last rounds the metal is very warm and uncomfortable to touch; the second and sixth (next to last) rounds it is hot, causing blisters and damage; the third, fourth and fifth rounds it is searing hot, causing damage and disability to exposed flesh:</p><table class=\"book-table\"><tr><th>Metal temperature</th><th>Damage per round of exposure</th><th>Disability</th></tr><tr><td>very warm</td><td>none</td><td>none</td></tr><tr><td>hot</td><td>1-4 hit points</td><td>none</td></tr><tr><td>searing</td><td>2-8 hit points</td><td>hands or feet: 2-8 days; head: 1-4 turns unconsciousness; body: 1-4 days</td></tr></table><p>Wood, leather or flammable cloth touching searing metal smoulders and burns, and then does searing damage to exposed flesh the next round. Fire resistance (potion or ring) or a protection from fire spell completely negates heat metal, as does plunging into water or snow, or a cold or ice storm spell (qq.v.).</p><p><strong>Reverse (chill metal):</strong> counters heat metal, or else chills metal as follows:</p><table class=\"book-table\"><tr><th>Metal temperature</th><th>Damage per round of exposure</th><th>Disability</th></tr><tr><td>cold</td><td>none</td><td>none</td></tr><tr><td>icy</td><td>1-2 hit points</td><td>none</td></tr><tr><td>freezing</td><td>1-4 hit points</td><td>amputation of fingers, toes, nose or ears</td></tr></table><p>Chill metal is countered by resist cold or by any great heat, such as being near a blazing fire (not a mere torch), a magical flaming sword, a wall of fire, etc.</p><p><strong>Charge to a customer:</strong> 50 GP.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (druid Heat Metal, PHB)",
+   "rolls": [
+    {
+     "label": "Damage this round",
+     "kind": "dmg",
+     "formula": "",
+     "save": "",
+     "each": "",
+     "fn": "",
+     "charges": 0,
+     "note": "",
+     "mode": "",
+     "x": "",
+     "choices": [
+      {
+       "label": "Hot (2nd and 6th rounds)",
+       "formula": "1d4",
+       "rows": []
+      },
+      {
+       "label": "Searing (3rd-5th rounds)",
+       "formula": "2d4",
+       "rows": []
+      },
+      {
+       "label": "Reverse, icy",
+       "formula": "1d2",
+       "rows": []
+      },
+      {
+       "label": "Reverse, freezing",
+       "formula": "1d4",
+       "rows": []
+      }
+     ],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    },
+    {
+     "label": "Searing disability",
+     "kind": "dur",
+     "formula": "",
+     "save": "",
+     "each": "",
+     "fn": "",
+     "charges": 0,
+     "note": "",
+     "mode": "",
+     "x": "",
+     "choices": [
+      {
+       "label": "Hands or feet (days)",
+       "formula": "2d4",
+       "rows": []
+      },
+      {
+       "label": "Head: unconscious (turns)",
+       "formula": "1d4",
+       "rows": []
+      },
+      {
+       "label": "Body (days)",
+       "formula": "1d4",
+       "rows": []
+      }
+     ],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ]
+  },
+  "folder": "Level 3"
+ },
+ {
+  "name": "Identify Poison",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 3,
+   "school": "",
+   "reversible": false,
+   "components": "",
+   "range": "100'",
+   "castingTime": "8 segments",
+   "duration": "",
+   "save": "",
+   "aoe": "20 cubic feet of material",
+   "description": "<p><em>New alchemist spell (#), usable by magic-users. Statistics not given in the article are blank.</em></p><p>Tells whether a specific sample is poison or has been poisoned. It is infallible in that, but the strength of the poison is not determined.</p><p><strong>Charge to a customer:</strong> 75 GP.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49",
+   "rolls": []
+  },
+  "folder": "Level 3"
+ },
+ {
+  "name": "False Trap",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 3,
+   "school": "Illusion/Phantasm",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "Touch",
+   "castingTime": "3 rounds",
+   "duration": "Permanent",
+   "save": "None",
+   "aoe": "Object touched",
+   "description": "<p><em>Printed “Leomund's Trap”.</em></p><p>A false trap meant to fool dwarves and/or thieves trying to steal the caster’s goods. The caster places the dweomer on any small mechanism, such as a lock, hinge, hasp, screw-on cap, ratchet, etc.</p><p>A character able to detect traps who examines it is 80% likely to notice the “trap” and believe it real, less 4% per level of the examiner beyond the first. Someone trying to remove it is only 20% likely to believe he or she has succeeded, plus 4% per level of the remover. It is only an illusion, so nothing happens if it is ignored; its purpose is to frighten thieves away or make them waste precious time.</p><p>Only one false trap can be placed in a 50’ by 50’ area. <strong>Component:</strong> a piece of iron pyrite touched to the object.</p><p><strong>Charge to a customer:</strong> 125 GP.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (magic-user False Trap, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 3"
+ },
+ {
+  "name": "Magic Mouth",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 3,
+   "school": "Alteration",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "Special",
+   "castingTime": "2 segments",
+   "duration": "Special",
+   "save": "None",
+   "aoe": "One object",
+   "description": "<p>An enchanted mouth appears on the chosen object and speaks a message when a specified event happens. The message can be 25 words or less in a language the caster knows, spoken over 1 turn from start to finish; it cannot cast spells. The mouth moves with the words, so on a statue the statue’s mouth would appear to speak. It can be placed on a tree, rock, door or any other object, but not on intelligent animals or plants.</p><p><strong>The trigger</strong> can be as general or as detailed as the caster likes: “speak to the first creature that touches you”, “to the first creature that passes within 30’”, or even “Speak only when an octogenarian female human carrying a sack of groat clusters sits cross-legged within 1’.” The trigger’s range is ½” per level (a 6th level magic-user’s mouth can respond to an event up to 3” away). The spell lasts until the condition is met.</p><p>The mouth cannot detect invisible creatures, alignment, level, hit dice, or class (except by outward dress).</p><p><strong>Component:</strong> a small bit of honeycomb.</p><p><strong>Charge to a customer:</strong> 145 GP.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (magic-user Magic Mouth, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 3"
+ },
+ {
+  "name": "Slow Poison",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 3,
+   "school": "Necromantic",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "Touch",
+   "castingTime": "1 segment",
+   "duration": "1 hour/level",
+   "save": "None",
+   "aoe": "Creature touched",
+   "description": "<p>Cast on a poisoned creature, this spell greatly slows the venom. It can even restore to life a victim thought dead, if cast within a number of turns after the poisoning no greater than the cleric’s level: a 10th or higher level cleric can temporarily save a victim poisoned up to 10 turns earlier.</p><p>The spell does not neutralize the poison, but stops it doing serious harm while the spell lasts. The victim loses 1 hit point per turn from the venom, but never drops below 1 hit point during the spell. For example, if the victim poisoned 10 turns ago had 10 hit points, the 10th level cleric’s spell leaves him at 1 hit point until the spell ends; hopefully a full cure can be found in that time.</p><p><strong>Components:</strong> the cleric’s holy/unholy symbol and a bud of garlic, crushed and smeared on the victim’s bare feet.</p><p><strong>Charge to a customer:</strong> 200 GP per effective level.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (cleric Slow Poison, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 3"
+ },
+ {
+  "name": "Floating Disc",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 3,
+   "school": "Evocation",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "2“",
+   "castingTime": "1 segment",
+   "duration": "3 turns + 1 turn/level",
+   "save": "None",
+   "aoe": "Special",
+   "description": "<p><em>Printed “Tenser's Floating Disk”.</em></p><p>Creates a circular plane of null-gravity. The disc is concave, 3’ across, and holds 1,000 g.p. weight per level of the caster. It always floats about 3’ above the ground and stays level.</p><p>If not commanded otherwise, it stays 6’ from the caster. On command it moves anywhere within range, or along with the caster at 6”. If the caster goes beyond range or the spell ends, the disc vanishes and whatever was on it drops to the surface below.</p><p><strong>Component:</strong> a drop of mercury.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (magic-user Floating Disc, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 3"
+ },
+ {
+  "name": "Wizard Lock",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 3,
+   "school": "Alteration",
+   "reversible": false,
+   "components": "V, S",
+   "range": "Touch",
+   "castingTime": "2 segments",
+   "duration": "Permanent",
+   "save": "None",
+   "aoe": "30 square feet/level",
+   "description": "<p>Magically locks a door, chest or portal. It can only be opened by breaking it, by dispel magic or knock (qq.v.), or by a magic-user 4 or more levels higher than the caster. The last two do not remove the wizard lock, only suspend it briefly. Extra-dimensional creatures do not affect a wizard lock as they do a held portal (see hold portal).</p><p><strong>Charge to a customer:</strong> 200 GP.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (magic-user Wizard Lock, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 3"
+ },
+ {
+  "name": "Extension I",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 4,
+   "school": "Alteration",
+   "reversible": false,
+   "components": "V",
+   "range": "0",
+   "castingTime": "2 segments",
+   "duration": "Special",
+   "save": "None",
+   "aoe": "Special",
+   "description": "<p>Extends the duration of a first, second or third level spell already cast by 50%: a levitate can be made to last 1½ turns/level, a hold person 3 rounds/level, etc. It only works on spells where duration matters.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (magic-user Extension I, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 4"
+ },
+ {
+  "name": "Find Familiar",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 4,
+   "school": "Conjuration/Summoning",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "1 mile/level",
+   "castingTime": "1-24 hours",
+   "duration": "Special",
+   "save": "Neg.",
+   "aoe": "As spell range",
+   "description": "<p><em>Altered for alchemists (*):</em> a different set of familiars; the other variables are as the magic-user spell. Roll d20: 1-4 black cat, 5-8 hoot owl, 9-11 crow, 12-16 garter snake, 17 special, 18-20 none available this year. Special familiars by alignment: lawful good, a brownie or blink dog; lawful neutral, pseudo-dragon; lawful evil, imp.</p><p>The familiar does not add to the alchemist's hit points or level. It gathers information as a magic-user's familiar does, and the alchemist has a telepathic link to it. With a familiar the alchemist adds 5% to every chance to perform any task; if it is killed, the alchemist is 5% worse at all tasks until a new one is gained.</p><p>A familiar adds to its master’s hit points, shares its senses with him or her, can talk with its master, and serves as a guard, scout and spy. But the magic-user has no control over what kind of creature answers the summons, or whether any comes at all, and the spell can only be tried once per year.</p><p><strong>Casting:</strong> the magic-user fills a brass brazier with charcoal and, when it is burning well, adds 100 g.p. worth of incense, herbs (certainly basil, savory and catnip) and fat. While these burn, the caster begins the incantation and continues it until the familiar comes or the casting time is over. The referee determines all results secretly:</p><table class=\"book-table\"><tr><th>d20*</th><th>Familiar</th><th>Sensory powers</th></tr><tr><td>1-4</td><td>cat, black</td><td>excellent night vision &amp; superior hearing</td></tr><tr><td>5-6</td><td>crow</td><td>excellent vision</td></tr><tr><td>7-8</td><td>hawk</td><td>very superior distance vision</td></tr><tr><td>9-10</td><td>owl, screech</td><td>night vision equal to human daylight vision, superior hearing</td></tr><tr><td>11-12</td><td>toad</td><td>wide angle vision</td></tr><tr><td>13-14</td><td>weasel</td><td>superior hearing &amp; very superior sense of smell</td></tr><tr><td>15</td><td>special (see below)</td><td></td></tr><tr><td>16-20*</td><td>no familiar available within spell range</td><td></td></tr></table><p>*Subtract 1 from the roll for each 3 levels of the caster. If the adjusted score is 15 or less, roll again using d16; if a 16 is rolled, that result is final.</p><p><strong>Special familiar</strong> (a roll of 15), by the magic-user’s alignment:</p><table class=\"book-table\"><tr><th>Alignment of magic-user</th><th>Special familiar</th></tr><tr><td>chaotic evil or chaotic neutral</td><td>quasit (see 1e FRPG, MM)</td></tr><tr><td>chaotic good, neutral, or neutral good</td><td>pseudo-dragon (see 1e FRPG, MM)</td></tr><tr><td>lawful neutral or lawful good</td><td>brownie (see 1e FRPG, MM)</td></tr><tr><td>lawful evil or neutral evil</td><td>imp (see 1e FRPG, MM)</td></tr></table><p><strong>Normal familiars</strong> have 2-4 hit points and armor class 7 (from size, speed, etc.). Each is unusually intelligent and totally loyal to its master. Its hit points are added to the magic-user’s total while it is within 12” of its master, but if the familiar is ever killed, the magic-user permanently loses double that number of hit points.</p><p><strong>Special familiars:</strong> the powers they give are described in 1e Fantasy RPG, MM, except for the brownie. A brownie becomes the magic-user’s friend and companion, and the magic-user gains dexterity equal to the brownie’s (18), is never surprised, and gets +2 on all saving throws. A special familiar gets a saving throw versus magic when summoned; if it succeeds, it ignores the spell, and NO familiar is available to the caster that year.</p><p>A familiar will only fight for its master’s life in a life-and-death situation, and imps and quasits are 90% likely not to do so at the risk of their own lives.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (magic-user Find Familiar, PHB)",
+   "rolls": [
+    {
+     "label": "Familiar",
+     "kind": "table",
+     "formula": "",
+     "save": "",
+     "note": "",
+     "table": {
+      "formula": "1d20",
+      "rows": [
+       {
+        "lo": 1,
+        "hi": 4,
+        "text": "Black cat"
+       },
+       {
+        "lo": 5,
+        "hi": 8,
+        "text": "Hoot owl"
+       },
+       {
+        "lo": 9,
+        "hi": 11,
+        "text": "Crow"
+       },
+       {
+        "lo": 12,
+        "hi": 16,
+        "text": "Garter snake"
+       },
+       {
+        "lo": 17,
+        "hi": 17,
+        "text": "Special: lawful good, brownie or blink dog; lawful neutral, pseudo-dragon; lawful evil, imp"
+       },
+       {
+        "lo": 18,
+        "hi": 20,
+        "text": "None available this year"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "folder": "Level 4"
+ },
+ {
+  "name": "Fools Gold",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 4,
+   "school": "Alteration",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "1”",
+   "castingTime": "1 round",
+   "duration": "6 turns/level",
+   "save": "None",
+   "aoe": "1 cubic foot per level of the magic-user",
+   "description": "<p>For the spell’s duration, copper coins become gold pieces, or brass items become solid gold. A huge amount can be changed; for this spell, assume 4,000 g.p. take up a cubic foot.</p><p><strong>Seeing through it:</strong> any creature looking at the fools gold gets a saving throw: it must roll equal to or less than its intelligence, adding 1 to its roll for each level of the caster, so gold made by a high level caster is unlikely to be detected.</p><p><strong>Cold iron:</strong> if the “gold” is struck hard with cold-wrought iron, it may turn back, depending on the material component used:</p><table class=\"book-table\"><tr><th>Component (powdered and sprinkled over the metal)</th><th>Chance cold iron reveals it</th></tr><tr><td>50 g.p. citrine</td><td>30%</td></tr><tr><td>100 g.p. amber</td><td>25%</td></tr><tr><td>500 g.p. topaz</td><td>10%</td></tr><tr><td>1,000 g.p. oriental (corundum) topaz</td><td>1%</td></tr></table><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (magic-user Fools Gold, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 4"
+ },
+ {
+  "name": "Find Plants",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 4,
+   "school": "",
+   "reversible": false,
+   "components": "",
+   "range": "1 mile/effective level",
+   "castingTime": "",
+   "duration": "1 hour/effective level",
+   "save": "",
+   "aoe": "",
+   "description": "<p><em>New alchemist spell (#), usable by magic-users. Statistics not given in the article are blank.</em></p><p>With a sample of any part of a plant, the alchemist finds a living plant of that kind anywhere within one mile per effective level. The direction is pointed out without error for one hour per effective level.</p><p><strong>Charge to a customer:</strong> 125 GP.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49",
+   "rolls": []
+  },
+  "folder": "Level 4"
+ },
+ {
+  "name": "Glyph of Warding (shock or explosion)",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 4,
+   "school": "Abjuration-Evocation",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "Touch",
+   "castingTime": "Special",
+   "duration": "Permanent until discharged",
+   "save": "Special",
+   "aoe": "25 square feet per level of the spell caster",
+   "description": "<p><em>Alchemists: shock or explosion glyphs only.</em></p><p>A powerful magical inscription that stops unauthorized or hostile creatures from passing, entering or opening. It can guard a small bridge, ward an entrance, or trap a chest or box.</p><p><strong>Casting:</strong> the cleric traces the sigil (1 segment) and then a web of faintly glowing lines around it, taking 1 segment per square foot protected. The maximum area is 5’ × 5’ per level. When finished, the glyph and lines become invisible.</p><p><strong>Effect:</strong> any creature that touches the protected area without first speaking the glyph’s name suffers the magic stored in it. Saving throws apply, either reducing the effect by one-half or negating it depending on the glyph. Typical glyphs shock for 2 points of electrical damage per level of the caster, explode for the same amount of fire damage, paralyze, blind, or even drain a life energy level (if the cleric is high enough level to cast that glyph).</p><p><strong>Components:</strong> incense to trace the glyph; if the area exceeds 50 square feet, it must also be sprinkled with powdered diamond worth at least 2,000 g.p.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (cleric Glyph of Warding, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 4"
+ },
+ {
+  "name": "Knock",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 4,
+   "school": "Alteration",
+   "reversible": false,
+   "components": "V",
+   "range": "6”",
+   "castingTime": "1 segment",
+   "duration": "Special",
+   "save": "None",
+   "aoe": "10 square feet/level",
+   "description": "<p>Opens stuck, held or wizard locked doors, and barred or otherwise locked doors. It makes secret doors open, opens locked or trick-opening boxes and chests, and loosens shackles or chains.</p><p>Used on a wizard-locked door, it does not remove the wizard lock but suspends it for 1 turn. In all other cases it opens locks or welds permanently, though a lock could be closed and locked again afterwards. It does not raise bars or similar obstacles (such as a portcullis).</p><p>One knock performs two of these functions; a door that is locked, barred and held needs two knock spells to open.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (magic-user Knock, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 4"
+ },
+ {
+  "name": "Levitate",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 4,
+   "school": "Alteration",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "2”/level",
+   "castingTime": "2 segments",
+   "duration": "1 turn/level",
+   "save": "Neg.",
+   "aoe": "Special",
+   "description": "<p>The caster can levitate himself or herself, or another creature, up to 1,000 gold pieces weight per level (a third level magic-user can levitate up to 300 pounds, 3,000 g.p.). Cast on himself or herself, the caster can move up or down at 20’ per round; cast on another creature, the caster can move it up or down at up to 10’ per round.</p><p>The spell gives no horizontal movement, though the subject could push along a cliff face, for example, to move sideways. The caster can end the spell at will. An unwilling creature gets a saving throw.</p><p><strong>Component:</strong> a small leather loop, or a piece of golden wire bent into a cup shape with a long shank on one end.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (magic-user Levitate, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 4"
+ },
+ {
+  "name": "Neutralize Poison",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 4,
+   "school": "Alteration",
+   "reversible": true,
+   "components": "V, S",
+   "range": "Touch",
+   "castingTime": "7 segments",
+   "duration": "Permanent",
+   "save": "None",
+   "aoe": "Creature touched or 1 cubic foot of substance/2 levels",
+   "description": "<p>The cleric detoxifies any venom in the creature or substance touched. Touching an unwilling opponent, such as a poisonous reptile or snake (or an opponent’s envenomed weapon), needs a hit in melee. The cure is permanent only for poison already present at the moment of the touch; creatures or objects that make new poison are not permanently detoxified.</p><p><strong>Reverse (poison):</strong> also needs a successful “to hit” touch. The victim gets a saving throw versus poison, and dies if it fails.</p><p><strong>Charge to a customer:</strong> 1,000 GP.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (cleric Neutralize Poison, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 4"
+ },
+ {
+  "name": "Pyrotechnics",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 4,
+   "school": "Alteration",
+   "reversible": false,
+   "components": "V, S",
+   "range": "12”",
+   "castingTime": "2 segments",
+   "duration": "Special",
+   "save": "None",
+   "aoe": "10 or 100 times the fire source used",
+   "description": "<p>Apart from the differences given in the spell’s statistics, this is the same as the third level druid spell pyrotechnics (q.v.).</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (magic-user Pyrotechnics, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 4"
+ },
+ {
+  "name": "Stone Shape",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 4,
+   "school": "Alteration",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "Touch",
+   "castingTime": "1 round",
+   "duration": "Permanent",
+   "save": "None",
+   "aoe": "Three cubic feet, plus one cubic foot per level",
+   "description": "<p>Exactly the same as the fifth level magic-user spell stone shape (q.v.), except for the differences given in the spell’s statistics and the need for mistletoe as an extra component.</p><p><strong>Charge to a customer:</strong> 400 GP.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (druid Stone Shape, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 4"
+ },
+ {
+  "name": "Burning Hands",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 5,
+   "school": "Alteration",
+   "reversible": false,
+   "components": "V, S",
+   "range": "0",
+   "castingTime": "1 segment",
+   "duration": "1 round",
+   "save": "None",
+   "aoe": "Special",
+   "description": "<p>Jets of searing flame shoot from the caster’s fingertips. The thumbs must touch with fingers spread, so the flames form a fan-shaped sheet: jets 3’ long in a horizontal arc of about 120° in front of the caster. Every creature in the flames takes 1 hit point of damage per level of the caster, with no saving throw. Flammable materials touched by the flames burn (cloth, paper, parchment, thin wood, etc.).</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (magic-user Burning Hands, PHB)",
+   "rolls": [
+    {
+     "label": "Damage (no save)",
+     "kind": "dmg",
+     "formula": "@L",
+     "save": "",
+     "each": "",
+     "fn": "",
+     "charges": 0,
+     "note": "",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ]
+  },
+  "folder": "Level 5"
+ },
+ {
+  "name": "Dispel Magic",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 5,
+   "school": "Abjuration",
+   "reversible": false,
+   "components": "V, S",
+   "range": "12”",
+   "castingTime": "3 segments",
+   "duration": "Permanent",
+   "save": "None",
+   "aoe": "3” cube",
+   "description": "<p>Apart from the differences given in the spell’s statistics, this is the same as the third level cleric spell dispel magic (q.v.).</p><p><strong>Charge to a customer:</strong> 700 GP.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (magic-user Dispel Magic, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 5"
+ },
+ {
+  "name": "Explosive Runes",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 5,
+   "school": "Alteration",
+   "reversible": false,
+   "components": "V, S",
+   "range": "Touch",
+   "castingTime": "3 segments",
+   "duration": "Special",
+   "save": "None or ½",
+   "aoe": "1” radius",
+   "description": "<p>Mystic runes traced on a book, map, scroll or similar written item prevent unauthorized reading. They are hard to detect: 5% per level of magic-use experience of the reader, and thieves have only a 5% chance in any case.</p><p>When read, the runes explode: the reader takes the full 12 to 30 (6d4 + 6) hit points of damage with no saving throw, and creatures within the blast radius take the same, or half on a successful saving throw. The item is destroyed in the explosion unless it is normally immune to destruction by magical fire.</p><p>The caster, and any other magic-users he or she instructs, can use the item without setting off the runes, and the caster can remove them at will. Otherwise only dispel magic removes them. They last until triggered.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (magic-user Explosive Runes, PHB)",
+   "rolls": [
+    {
+     "label": "Damage (the reader gets no save)",
+     "kind": "dmg",
+     "formula": "6d4+6",
+     "save": "half",
+     "each": "",
+     "fn": "",
+     "charges": 0,
+     "note": "",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ]
+  },
+  "folder": "Level 5"
+ },
+ {
+  "name": "Glyph of Warding (paralyzation or blindness)",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 5,
+   "school": "Abjuration-Evocation",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "Touch",
+   "castingTime": "Special",
+   "duration": "Permanent until discharged",
+   "save": "Special",
+   "aoe": "25 square feet per level of the spell caster",
+   "description": "<p><em>Alchemists: paralyzation or blindness glyphs only.</em></p><p>A powerful magical inscription that stops unauthorized or hostile creatures from passing, entering or opening. It can guard a small bridge, ward an entrance, or trap a chest or box.</p><p><strong>Casting:</strong> the cleric traces the sigil (1 segment) and then a web of faintly glowing lines around it, taking 1 segment per square foot protected. The maximum area is 5’ × 5’ per level. When finished, the glyph and lines become invisible.</p><p><strong>Effect:</strong> any creature that touches the protected area without first speaking the glyph’s name suffers the magic stored in it. Saving throws apply, either reducing the effect by one-half or negating it depending on the glyph. Typical glyphs shock for 2 points of electrical damage per level of the caster, explode for the same amount of fire damage, paralyze, blind, or even drain a life energy level (if the cleric is high enough level to cast that glyph).</p><p><strong>Components:</strong> incense to trace the glyph; if the area exceeds 50 square feet, it must also be sprinkled with powdered diamond worth at least 2,000 g.p.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (cleric Glyph of Warding, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 5"
+ },
+ {
+  "name": "Magic Missile",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 5,
+   "school": "Evocation",
+   "reversible": false,
+   "components": "V, S",
+   "range": "6” + 1”/level",
+   "castingTime": "1 segment",
+   "duration": "Special",
+   "save": "None",
+   "aoe": "One or more creatures in a 10 square foot area",
+   "description": "<p><em>Printed “Magic Missile (4)”: an alchemist gets four missiles, and so does a magic-user who learns it in Alchemese, even at 20th level (the article's example). The roll always gives four.</em></p><p>Magical missiles dart from the caster’s fingertip and strike their target unerringly, each doing 2 to 5 hit points (d4 + 1) of damage. The caster gets one missile, plus one more for every 2 levels: 2 at 3rd level, 3 at 5th, 4 at 7th, etc. Several missiles can hit one creature or several, as the caster wishes. Range is 6” plus 1” per level of the caster.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (magic-user Magic Missile, PHB)",
+   "rolls": [
+    {
+     "label": "Damage per missile",
+     "kind": "dmg",
+     "formula": "1d4+1",
+     "save": "",
+     "each": "4",
+     "fn": "",
+     "charges": 0,
+     "note": "",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ]
+  },
+  "folder": "Level 5"
+ },
+ {
+  "name": "Locate Object",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 5,
+   "school": "Divination",
+   "reversible": true,
+   "components": "V, S, M",
+   "range": "2”/level",
+   "castingTime": "2 segments",
+   "duration": "1 round/level",
+   "save": "None",
+   "aoe": "Special",
+   "description": "<p>The same as the third level cleric spell locate object (q.v.), except for its range.</p><p><strong>Charge to a customer:</strong> 300 GP.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (magic-user Locate Object, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 5"
+ },
+ {
+  "name": "Polymorph Other",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 5,
+   "school": "Alteration",
+   "reversible": false,
+   "components": "V, S, M",
+   "range": "½”/level",
+   "castingTime": "4 segments",
+   "duration": "Permanent",
+   "save": "Neg.",
+   "aoe": "One creature",
+   "description": "<p>A powerful magic that completely changes the target’s form and abilities, and possibly its personality and mind. A creature cannot be turned into something more intelligent than itself, though the reverse is possible.</p><p><strong>Survival:</strong> the target must make a “system shock” roll (cf. CONSTITUTION) to survive the change. If it does, it gains all the form and abilities of its new shape.</p><p><strong>Becoming the new creature:</strong> the chance that its personality and mind also change to those of the new form starts at 100%. Subtract 5% per point of the target’s intelligence, and adjust by 5% for each hit die of difference between its own hit dice (or level, for characters) and those of the new form: plus if the new form has more, minus if fewer. Check daily until the change happens. (All creatures generally prefer their own form and will not willingly risk this spell!)</p><p><strong>Example:</strong> a one hit die orc of 8 intelligence turned into a 6 hit dice white dragon is 85% (100% - [5% × 8 intelligence] + [(6 - 1) × 5%] = 85%) likely to become one in every respect. Either way it has the dragon’s physical and mental capabilities, and if it does not take on the dragon’s personality and mind, it still knows what it knew before. Likewise, an 8th level fighter turned into a blue dragon, if he did not take on the dragon’s mind, would still know weapon combat and could use weapons in the dragon’s grasping forepaws.</p><p>The new form may be tougher than it looks: a mummy turned into a puppy would be very tough, and a brontosaurus turned into an ant could not be squashed by a small or even man-sized creature stepping on it.</p><p>Returning the creature to its own form requires the magic-user to use dispel magic, which also requires a “system shock” saving throw.</p><p><strong>Component:</strong> a caterpillar cocoon.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (magic-user Polymorph Other, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 5"
+ },
+ {
+  "name": "Polymorph Self",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 5,
+   "school": "Alteration",
+   "reversible": false,
+   "components": "V",
+   "range": "0",
+   "castingTime": "3 segments",
+   "duration": "2 turns/level",
+   "save": "None",
+   "aoe": "The magic-user",
+   "description": "<p>The caster takes the form of any creature, from as small as a wren to as large as a hippopotamus, along with its way of moving. The caster does not gain the creature’s other abilities (attacks, magic, etc.), and there is no risk of changing personality or mind, so no “system shock” check is needed. A magic-user turned into an owl could fly but would still have human vision; as a black pudding he or she could move under doors or along halls and ceilings, but would not have the pudding’s attacks or defenses. The new form must be strong enough to move normally.</p><p>The caster can change form as often as desired, each change taking only 5 segments. Damage to the new form counts as damage to the caster, but when he or she returns to normal form, 1 to 12 (d12) points of damage are restored.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (magic-user Polymorph Self, PHB)",
+   "rolls": [
+    {
+     "label": "Restored on returning to normal form",
+     "kind": "heal",
+     "formula": "1d12",
+     "save": "",
+     "each": "",
+     "fn": "",
+     "charges": 0,
+     "note": "",
+     "mode": "",
+     "x": "",
+     "choices": [],
+     "table": {
+      "formula": "",
+      "rows": []
+     }
+    }
+   ]
+  },
+  "folder": "Level 5"
+ },
+ {
+  "name": "Telekinesis",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 5,
+   "school": "Alteration",
+   "reversible": false,
+   "components": "V, S",
+   "range": "1”/level",
+   "castingTime": "5 segments",
+   "duration": "2 rounds + 1 round/level",
+   "save": "None",
+   "aoe": "250 g.p. weight/level",
+   "description": "<p>The caster moves objects by concentrating on moving them mentally, vertically or horizontally. The speed doubles each round: 2” the first round, 4” the second, 8” the third, 16” the fourth, and so on, up to a maximum of 1,024” per round. (Heavy objects moving at high speed can be deadly weapons!)</p><p>It can move opponents within its weight limit, but they can easily counter it with something as simple as an enlarge spell (pushing their weight over the limit). Walking, or some other way of moving under their own power if they cannot walk, also counters it, as long as the speed has not yet reached 16” per round. The various hand spells, and many other magics, also counter it.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49 (magic-user Telekinesis, PHB)",
+   "rolls": []
+  },
+  "folder": "Level 5"
+ },
+ {
+  "name": "Transmute Rock to Ore",
+  "type": "spell",
+  "img": "icons/svg/book.svg",
+  "system": {
+   "list": "alchemist",
+   "level": 5,
+   "school": "",
+   "reversible": false,
+   "components": "",
+   "range": "",
+   "castingTime": "1 hour",
+   "duration": "",
+   "save": "",
+   "aoe": "",
+   "description": "<p><em>New alchemist spell (#), usable by magic-users. Statistics not given in the article are blank.</em></p><p>Turns any ore-bearing rock into the pure ore, in any form the alchemist desires (powder, solid, etc.; not the final shape). Up to one ton of rock can be reduced to the ore within it. Worked rock is not affected. Interrupting the casting negates the spell completely.</p><p><strong>Charge to a customer:</strong> 150 GP plus 10% of the ore's value.</p><p><em>Alchemists use their magic level (the number of 4-sided hit dice, at most 7) as the caster level for range, duration, area of effect, etc.</em></p>",
+   "source": "Dragon #49",
+   "rolls": []
+  },
+  "folder": "Level 5"
+ }
+]

@@ -1,0 +1,37 @@
+{
+  "id": "frpg1e-alchemist",
+  "title": "Alchemist (Dragon #49) for 1e FRPG",
+  "description": "An optional non-player alchemist class for 1e FRPG, based on Lenard Lakofka's \"A recipe for the Alchemist\" (Leomund's Tiny Hut, Dragon #49, May 1981): levels from Potter to Grandmaster, d4 hit dice and magic level, the abilities chart with rolls for crafting, potion testing and analysis, potions by difficulty, poisons and mixtures, and the alchemist's own spell list. Rules restated in plain words. Adds an Alchemist tab and compendia. Turn it on or off in Manage Modules.",
+  "version": "0.2.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Jeremy Clifford"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "frpg1e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.37.0"
+        },
+        "manifest": "https://github.com/gmjeremynow/frpg1e/releases/latest/download/system.json"
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/alchemist.mjs"
+  ],
+  "styles": [
+    "styles/alchemist.css"
+  ],
+  "library": false,
+  "url": "https://github.com/gmjeremynow/frpg1e-alchemist",
+  "manifest": "https://github.com/gmjeremynow/frpg1e-alchemist/releases/latest/download/module.json",
+  "download": "https://github.com/gmjeremynow/frpg1e-alchemist/releases/download/v0.2.0/frpg1e-alchemist.zip"
+}
